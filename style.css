@@ -480,7 +480,7 @@ footer {
     }
     
     .social-links {
-        max-width: 100px;
+        max-width: 20px;
         width: 100%;
     }
 
@@ -490,6 +490,8 @@ footer {
 
     .footer__logo {
         max-width: 200px;
+        margin-bottom: -70px;
+        margin-left: 60px;
     }
 
     .footer__link {
@@ -504,5 +506,10 @@ footer {
     .sponsors {
         max-width: 350px;
         width: 100%;
+    }
+
+
+    .section__description--footer {
+        flex-direction: column;
     }
 }

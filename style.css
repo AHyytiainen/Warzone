@@ -261,19 +261,16 @@ SOCIALS
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
 }
 
 .socials {
     list-style: none;
     padding-left: 0px;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 
 .social-links {
-    width: 50px;
-    border-radius: 5px;
-    animation: float 2000ms infinite alternate-reverse;
+    width: 20px;
 }
 
 /*
@@ -349,6 +346,7 @@ input, textarea {
 SPONSORS
 
 */
+
 #sponsors {
     background-color: #101010;
     padding-bottom: 24px;
@@ -383,23 +381,45 @@ FOOTER
 
 footer {
     background: linear-gradient(to right, #ff8a00 0%, #ff4d00 100%);
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.section__description--footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .footer__logo {
     max-width: 200px;
     height: 200px;
-    margin: -90px 0 -60px 0;
+    margin: -90px 48px -90px 0;
 }
 
 .footer__links {
-    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
 }
 
 .footer__link {
     padding: 0 16px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer--wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+}
+
+.footer-font {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 38px;
+    border-bottom: 2px solid #ff8a00;
 }
 
 /* SMALLL PHONE, TABLET, LARGE SMARTPHONES*/

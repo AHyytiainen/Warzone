@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="live">
+        <nav>
+            <img src="./assets/XYKO Orange.png" class="logo" alt="">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#learn">Learn</a></li>
+                <li><a href="index.html#discord">Level Up</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="home__description--button" onclick="window.location.href='https://www.fiverr.com/xykooo/get-you-high-kill-warzone-gameplays-for-your-videos';">START NOW ></button>
+        </nav>
+        <section id="watch">
+            <h1 class="white-live">LIVE</h1>
+            <div class="row">
+                <div class="section__description--player">
+                    <!-- Add a placeholder for the Twitch embed -->
+                    <div id="video"></div>
+                    <!-- Load the Twitch embed script -->
+                    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                    <div class="player">
+                        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+                        <script type="text/javascript">
+                        new Twitch.Player("video", {
+                            width: "700px",
+                            height: "400px",
+                            channel: "xyko_tv",
+                        });
+                        </script>
+                        <div>
+                            <iframe id="twitch-chat-embed"
+                            src="https://www.twitch.tv/embed/xyko_tv/chat?parent=http://127.0.0.1:5500/live.html"
+                            height="400"
+                            width="250">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <h2 class="content-header">YouTube Content</h2>
+            <div class="row">
+                <div class="section__description--player">
+                    <div class="youtube-player">
+                        <a href="https://www.youtube.com/watch?v=RUy1FJVt96g&list=PL6OYxxmne8agOLzCl7jK7vAT-Tp9o61nT" target="https://www.youtube.com/watch?v=RUy1FJVt96g&list=PL6OYxxmne8agOLzCl7jK7vAT-Tp9o61nT"><h2 class="youtube-header">GAMEPLAYS</h2></a>                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL6OYxxmne8agOLzCl7jK7vAT-Tp9o61nT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="section__description--player">
+                    <div class="youtube-player">
+                        <a href="https://www.youtube.com/watch?v=0EfvRyp9yUA&list=PL6OYxxmne8aiF9gP_nKg_hyrEY-Sm52Hs" target="https://www.youtube.com/watch?v=0EfvRyp9yUA&list=PL6OYxxmne8aiF9gP_nKg_hyrEY-Sm52Hs"><h2 class="youtube-header">SHORTS</h2></a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL6OYxxmne8aiF9gP_nKg_hyrEY-Sm52Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="section__description--footer">
+                <div class="footer--wrapper">
+                <img class="footer__logo" src="./assets/XYKO Orange.png" alt="">
+                </div>
+                <div class="footer--wrapper">
+                    <h2 class="footer-font">More XYKO</h2>
+                    <div class="footer__socials">
+                        <ul>
+                            <li class="socials"><a href="https://twitter.com/XYKO_TV" target="https://twitter.com/XYKO_TV"><img class="social-links" src="./assets/Twitter W.png" alt=""></a></li>
+                            <li class="socials"><a href="https://www.twitch.tv/xyko_tv" target="https://www.twitch.tv/xyko_tv"><img class="social-links" src="./assets/Twitch W.png" alt=""></a></li>
+                            <li class="socials"><a href="https://www.youtube.com/channel/UCqA3kt_bi_BbfCb-TSeD-Pw" target="https://www.youtube.com/channel/UCqA3kt_bi_BbfCb-TSeD-Pw"><img class="social-links" src="./assets/YT White.png" alt=""></a></li>
+                            <li class="socials"><a href="https://www.tiktok.com/@xykotv" target="https://www.tiktok.com/@xykotv"><img class="social-links" src="./assets/Tiktok W.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="footer--wrapper">
+                        <h2 class="footer-font">Navigate</h2>
+                        <div class="footer__links">
+                            <a class="footer__link" href="#home"><span class="red-gradient">-</span> Home <span class="red-gradient">-</span></a>
+                            <a class="footer__link" href="#learn"><span class="red-gradient">-</span> Learn <span class="red-gradient">-</span></a>
+                            <a class="footer__link" href="#discord"><span class="red-gradient">-</span> Level Up <span class="red-gradient">-</span></a>
+                            <a class="footer__link" href="#contact"><span class="red-gradient">-</span> Contact <span class="red-gradient">-</span></a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+</body>
+</html>
